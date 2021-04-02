@@ -1,6 +1,10 @@
+body{
+  background-color: turquoise;
+}
+
 header {
     padding: 20px 35px;
-    background-color: #b5b800;
+    background-color: #616161;
 }
 header h1 {
     display: inline;
@@ -19,10 +23,15 @@ header nav ul li {
 header nav ul li a {
     font-size: 18px;
     border-radius: 25px;
-    background-color:#000000;
+    background-color:#383847;
     color: rgb(153, 136, 136);
     padding: .5em 1.5em;
     text-transform: uppercase;
+}
+header nav ul li a:hover{
+  background-color: rgb(10, 10, 9);
+  color: white;
+
 }
 
 .pic{
@@ -30,53 +39,151 @@ header nav ul li a {
         height: 600px;
         width: 100%;
         margin-bottom: 25px;
-        background-image: url("../vitality/Desktop/hw2/bmw.jpg");
+        background-image: url("../pictures/giphy.gif");
         background-size: cover;
         background-position: center;
 }
-div.gallery {
-    border: 1px solid #ccc;
-  }
+
+.vertical{
+  border-left: 35px solid rgb(2, 2, 2);
+  height: 200px;
+  position: absolute;
+  left: 24%;
+  margin-left: -3px;
+  top: 12;
+}
+
+.vertical1{
+  border-left: 35px solid rgb(2, 2, 2);
+  height: 1000px;
+  position: absolute;
+  left: 24%;
+  margin-left: -3px;
+  top: 1250px;
+}
+
+h2{
+  font-size: 44px;
+  position: absolute;
+  left: 10%;
+  margin-left: -3px;
+  top: 12;
+}
+
+h3{
+  font-size: 44px;
+  position: absolute;
+  left: 10%;
+  margin-left: -3px;
+  top: 1000px;
+}
+
+h4{
+  font-size: 44px;
+  position: absolute;
+  left: 10%;
+  margin-left: -3px;
+ bottom: -105% ;
+}
+.p, .p1{
+  font-size: 20px;
+ text-align: right;
+ text-indent: 550px;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: 25px;
+  margin-top: 9.5%;
+}
+
+img:hover{
+  opacity: .75;
+}
   
-  div.gallery:hover {
-    border: 1px solid #777;
-  }
-  
-  div.gallery img {
-    width: 100%;
-    height: auto;
-  }
-  
-  div.desc {
-    padding: 15px;
-    text-align: center;
-  }
-  
-  * {
-    box-sizing: border-box;
-  }
-  
-  .responsive {
-    padding: 0 6px;
-    float: left;
-    width: 24.99999%;
-  }
-  
-  @media only screen and (max-width: 700px) {
-    .responsive {
-      width: 49.99999%;
-      margin: 6px 0;
-    }
-  }
-  
-  @media only screen and (max-width: 500px) {
-    .responsive {
-      width: 100%;
-    }
-  }
-  
-  .clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0;
+}
+
+.gallery-image {
+  margin-left: 35%;
+  margin-top: .5%;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery-image img {
+  height: 250px;
+  width: 350px;
+  transform: scale(1.0);
+  transition: transform 0.4s ease;
+}
+
+.img-box {
+  box-sizing: content-box;
+  margin: 10px;
+  height: 250px;
+  width: 350px;
+  overflow: hidden;
+  display: inline-block;
+  color: white;
+  position: relative;
+  background-color: white;
+}
+
+.caption {
+  position: absolute;
+  bottom: 5px;
+  left: 20px;
+  opacity: 0.0;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.transparent-box {
+  height: 250px;
+  width: 350px;
+  background-color:rgba(0, 0, 0, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: background-color 0.3s ease;
+}
+
+.img-box:hover img { 
+  transform: scale(1.1);
+}
+
+.img-box:hover .transparent-box {
+  background-color:rgba(0, 0, 0, 0.5);
+}
+
+.img-box:hover .caption {
+  transform: translateY(-20px);
+  opacity: 1.0;
+}
+
+.img-box:hover {
+  cursor: pointer;
+}
+
+.caption > p:nth-child(2) {
+  font-size: 0.8em;
+}
+
+.opacity-low {
+  opacity: 0.5;
+}
+
+footer{
+  text-align: center;
+  font-size: 50px;
+  padding: 3px;
+  background-color: rgb(2, 2, 2);
+  color: white;
+  width: 250px;
+
+}
