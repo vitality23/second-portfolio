@@ -83,7 +83,7 @@ header nav ul li a:hover{
   word-spacing: 150px;
 }
 a.one:link{ color: yellow;}
-a.one:hover{
+a.one:visited{
    color: white;
 }
 
