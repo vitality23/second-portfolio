@@ -12,10 +12,16 @@ header h1 {
     font-size: 48px;
 }  
 h2{
-  text-align: center;
-  
+  text-align: center; 
   font-size: 48px;
 }
+ 
+h3{
+margin-top: 260px;
+margin-left: 45%;
+font-size: 48px;
+}
+
 
 header nav {
     margin: 20px 0;
@@ -38,8 +44,8 @@ header nav ul li a:hover{
   background-color: rgb(10, 10, 9);
   color: white;
 
-}
-
+} 
+/* the main photo, or in this case I put in a gif*/
 .pic{
     
         height: 600px;
@@ -49,13 +55,15 @@ header nav ul li a:hover{
         background-size: cover;
         background-position: center;
 }
-
-.p, .p1{
+/* both paragraphs*/
+p{
   font-size: 22px;
   font-family: Arial, Helvetica, sans-serif;
   
 
 }
+
+/* larger picture*/
 .image-1{
   display: block;
   margin-left: auto;
@@ -63,38 +71,39 @@ header nav ul li a:hover{
   width: 70%;
   border: 3px solid #313131;
 }
-
+/* smaller pictures*/
 .image-2{
   display: inline-block;
-  margin: 10px 55px;
+  margin: 10px 60px;
   float: right;
   width: 300px;
   border: 3px solid #313131;
-  
-  padding: 10px;
+  padding: 5px;
 }
 .image-2:hover, .image-1:hover{
-  border-style: 5px solid #313131;
+  border-style: 2px solid #313131;
   opacity: .75;
 }
 
-.cont{
-  text-align: center;
-  font-size: 32px;
-  color: white;
-  word-spacing: 50px;
-}
+/* few lines style the links*/
+
+
 a.one:link{ color: yellow;}
 a.one:visited{
    color: white;
+   
+}
+
+.one{
+  margin: 50px;
 }
 
 footer{
   background-color: #313131;
 text-align: center;
 font-size: 48px;
-margin-top: 260px;
-
+margin-top: -95px;
+padding: 70px;
 }
 
 @media only screen and (max-width:1060px) {
@@ -135,7 +144,9 @@ display: inline;
   float: none;
   width: 30%;
   padding: 0px;
-  margin: 10px;
+  margin: 10px;}
+
+  footer{ margin-top: -105px;
 
  }
   }
