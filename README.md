@@ -15,3 +15,6 @@ I tried my best with making it as close to the mock up as I could, but it was a 
 
 ## here is the link of my finished page
 https://vitality23.github.io/portfolio/
+
+
+## here is what the website should look like or at least be close to 
