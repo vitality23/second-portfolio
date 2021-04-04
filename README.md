@@ -20,3 +20,5 @@ https://vitality23.github.io/portfolio/
 ## here is what the website should look like or at least be close to 
 
 ![](assets/pictures/pictures/02-advanced-css-homework-demo.gif)
+
+### one of the things i found really hard, adding text properly into the pictures, styling the pictures properly, and the one that really got me was adding a line accross the screen, i don't know why, but it really boggled my brains.
