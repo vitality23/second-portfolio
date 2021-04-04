@@ -18,3 +18,5 @@ https://vitality23.github.io/portfolio/
 
 
 ## here is what the website should look like or at least be close to 
+
+![](assets/pictures/pictures/02-advanced-css-homework-demo.gif)
