@@ -71,10 +71,8 @@ p{
   width: 70%;
   border: 3px solid #313131;
 }
-.vl {
-  border-left: 6px solid green;
-  height: 600px;
-}
+
+
 /* smaller pictures*/
 .image-2{
   display: inline-block;
@@ -88,15 +86,6 @@ p{
   border-style: 2px solid #313131;
   opacity: .75;
 }
-
-.asd{position: relative;
-  top: -35px;
-  left: 580px;
-  font-size: 30px;
-  color: azure;
-}
-
-
 /* few lines style the links*/
 a.one:link{ color: yellow;}
 a.one:visited{
