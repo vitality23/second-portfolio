@@ -1,5 +1,5 @@
 body{
-  background-color: rgb(189, 228, 224);
+  background-color: rgb(162, 191, 228);
 }
 
 header {
@@ -66,7 +66,7 @@ p{
 
 /* larger picture*/
 .image-1{
- 
+ width: 50%;
   border: 5px solid #313131;
 }
 
@@ -82,7 +82,7 @@ p{
   float: left;
   width: 300px;
   
-  padding: 10px;
+  padding: 15px;
 }
 /* few lines that style the links*/
 a.one:link{ color: yellow;}
