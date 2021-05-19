@@ -1,5 +1,5 @@
 body{
-  background-color: turquoise;
+  background-color: rgb(189, 228, 224);
 }
 
 header {
@@ -57,6 +57,7 @@ header nav ul li a:hover{
 }
 /* both paragraphs*/
 p{
+  text-align: center;
   font-size: 22px;
   font-family: Arial, Helvetica, sans-serif;
   
@@ -65,32 +66,28 @@ p{
 
 /* larger picture*/
 .image-1{
-  display: block;
-  margin-left: auto;
-  margin-right: 1;
-  width: 70%;
-  border: 3px solid #313131;
+ 
+  border: 5px solid #313131;
 }
-
 
 /* smaller pictures*/
-.image-2{
-  display: inline-block;
-  margin: 10px 60px;
-  float: right;
-  width: 300px;
-  border: 3px solid #313131;
-  padding: 5px;
-}
-.image-2:hover, .image-1:hover{
+
+.small-image:hover, .image-1:hover{
   border-style: 2px solid #313131;
   opacity: .75;
 }
-/* few lines style the links*/
+
+
+.small-image {
+  float: left;
+  width: 300px;
+  
+  padding: 10px;
+}
+/* few lines that style the links*/
 a.one:link{ color: yellow;}
 a.one:visited{
    color: white;
-   
 }
 
 .one{
@@ -112,16 +109,19 @@ padding: 70px;
     padding: 0;
 
   }
-  .image-2{
-    padding: 4px;
-  }
   
+  
+.small-image{
 
+  float: left;
+  width: 30%;
+  padding: 15px;
+}
     
   }
   .image-1{
     float: none;
-    width: 70%;
+    width: 100%;
   }
 
 @media only screen and (max-width:980px) {
@@ -131,16 +131,13 @@ padding: 70px;
     width: 70%;
    
  }
- .image-1 {
-float: none;
-width: 100%;
-}
+ 
 header nav{
 display: inline;
 
 }
-.image-2{
-  float: none;
+.small-image{
+  float: left;
   width: 30%;
   padding: 0px;
   margin: 10px;}
